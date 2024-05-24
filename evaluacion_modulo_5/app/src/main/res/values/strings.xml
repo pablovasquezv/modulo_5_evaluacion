@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">evaluacion_modulo_5</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">SplashScreen</string>
+    <string name="second_fragment_label">Login Signup Page</string>
+    <string name="login_page_fragment_label">Login Page</string>
+    <string name="fragment_singnup_page">Signup Page</string>
+    <string name="fragment_home_page_empty_case">Home Page Empty Case</string>
+    <string name="fragment_send_money">Send Money</string>
+    <string name="fragment_request_money">Request Money</string>
+    <string name="fragment_home_page">Home Page</string>
+    <string name="fragment_profile_page">Profile Page</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet.
+    </string>
+    <string name="login_page_string">Logea y empieza a transferir!!</string>
+    <string name="login_paga_btn_string">Login</string>
+    <string name="ultimas_string">Ultimas transacciones</string>
+    <string name="inicio_string">Inicio</string>
+    <string name="saludo_string">Hola, Amanda!</string>
+    <string name="balance_string">Balance Total</string>
+    <string name="valor_string">$124.57</string>
+    <string name="celeste">Evaluacion_M4</string>
+    <string name="nombreSingUpPage">Nombre</string>
+    <string name="apellidoSingUpPage">Apellido</string>
+    <string name="emailSingUpPage">Email</string>
+    <string name="contrasenyaSingUpPage">Contraseña</string>
+    <string name="regsitrarcontrasenyaSingUpPage">Reingresar contraseña</string>
+    <string name="textoSingUpPage">Registrarse y empezar a transferir!!</string>
+    <string name="botonSingUpPage">Crear Cuenta</string>
+    <string name="yatienesCuentaSingUpPage">¿Ya tienes Cuenta?</string>
+    <string name="olvidateTuConLoginPage">¿Olvidaste tú contraseña?</string>
+    <string name="textoLoginPage">¿Olvidaste tu contraseña ?</string>
+    <string name="request_payment_string">Ingresar Dinero</string>
+    <string name="request_money_string">Ingresar Dinero</string>
+    <string name="reem_1993_gmail_com_string">reem_1993@gmail.com</string>
+    <string name="reem_khaled_string">Reem Khaled</string>
+    <string name="payment_amount_ek2_string">Cantidad a ingresar</string>
+    <string name="_20_00_string">20.00</string>
+    <string name="add_payment_note_string">Agregar notas de transferencia(opcional)</string>
+    <string name="payment_note_ek2_string">Notas de transferencia</string>
+    <string name="reem_Yara_string"> Yara Khalil</string>
+    <string name="reem_yara_khalil_gmail_com_string">yara_khalil@gmail.com</string>
+    <string name="send_payment_string">Enviar Dínero</string>
+    <string name="payment_send_amount_ek2_string">Cantidad a transferir</string>
+    <string name="send_money_string">Enviar Dinero</string>
+    <string name="_12_50_string">12.50</string>
+    <string name="profile_page_string">Mi perfil</string>
+    <string name="profile_name_string">Amanda Alkemy</string>
+    <string name="profile_information_string">Mi información</string>
+    <string name="profile_my_cards_string">Mis tarjetas</string>
+    <string name="profile_options_string">Opciones</string>
+    <string name="profile_help_string">Centro de ayuda</string>
+    <string name="login_signup_page_string">El lugar mas seguro para tu dinero</string>
+    <string name="button_login_signup_page_string">¿Crear cuenta nueva?</string>
+
+    <string name="name_yara_page_string">Yara Khalil</string>
+    <string name="date_yara_page_string">Oct 14, 10:24 AM</string>
+    <string name="yara_page_string">-$15.00</string>
+
+    <string name="name_sara_page_string">Sara Ibrahim</string>
+    <string name="date_sara_page_string">Oct 12, 02:13 PM</string>
+    <string name="sara_page_string">+$20.50</string>
+
+    <string name="name_ahmad_page_string">Ahmad Ibrahim</string>
+    <string name="date_ahmad_page_string">Oct 11, 01:19 AM</string>
+    <string name="ahmad_page_string">+$12.40</string>
+
+    <string name="name_reem_page_string">Reem Khaled</string>
+    <string name="date_reem_page_string">Oct 07, 09:10 PM</string>
+    <string name="reem_page_string">-$21.30</string>
+
+    <string name="hiba_page_string">+$09.00</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.SingnupPageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp">
+
+        <ImageView
+            android:id="@+id/imgViewStatusbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/statusbar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/textoSingUpPage"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:lines="2"
+             />
+
+        <TextView
+            android:id="@+id/txtViewnombreSingUpPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/nombreSingUpPage"/>
+
+        <EditText
+            android:id="@+id/editTxtnombreSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Ingresa tú nombre"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/txtViewapellidosSingUpPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apellidoSingUpPage" />
+
+        <EditText
+            android:id="@+id/editTxtApellidosSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Ingresa tú apellido"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:id="@+id/txtViewEmailSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emailSingUpPage" />
+
+        <EditText
+            android:id="@+id/editTxtEmailSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Ingresa tú email"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/txtViewContrasenyaSingUpPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasenyaSingUpPage" />
+
+        <EditText
+            android:id="@+id/editTxtContrasenyaSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Ingresa tú contraseña"
+            android:drawableRight="@drawable/eye"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/txtViewRecontrasenyaSingUpPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regsitrarcontrasenyaSingUpPage"/>
+
+        <EditText
+            android:id="@+id/editTxtRecontrasenyaSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Reingresar tú contraseña"
+            android:drawableRight="@drawable/eye"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/colorbtnSinupPage"
+            android:text="@string/botonSingUpPage" />
+        <!-- Add margin bottom -->
+
+        <TextView
+            android:id="@+id/txtVYaTienesCuentaSingUpPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="110dp"
+            android:text="@string/yatienesCuentaSingUpPage"
+            android:textStyle="bold"
+            android:textColor="@color/celesteM4" /> <!-- Added margin top -->
+
+    </LinearLayout>
+
+</FrameLayout>

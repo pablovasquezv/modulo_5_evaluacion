@@ -1,0 +1,10 @@
+HELP.md
+
+### IntelliJ IDEA ###
+.idea
+app/build
+.gradle
+*.iws
+*.iml
+*.ipr
+

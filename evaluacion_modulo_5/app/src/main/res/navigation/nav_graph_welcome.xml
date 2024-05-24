@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SplashScreen">
+
+    <fragment
+        android:id="@+id/SplashScreen"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.SplashScreenFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_splash_screen">
+
+        <action
+            android:id="@+id/action_SplashScreen_to_LoginSignupPageFragment"
+            app:destination="@id/LoginSignupPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/LoginSignupPage"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.LoginSignupPageFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_login_signup_page">
+
+        <action
+            android:id="@+id/action_LoginSignupPage_to_SplashScreen"
+            app:destination="@id/SplashScreen" />
+        <action
+            android:id="@+id/action_LoginSignupPage_to_loginPage"
+            app:destination="@id/loginPage" />
+        <action
+            android:id="@+id/action_LoginSignupPage_to_singnupPageFragment"
+            app:destination="@id/singnupPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginPage"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.LoginPageFragment"
+        android:label="@string/login_page_fragment_label"
+        tools:layout="@layout/fragment_login_page" >
+        <action
+            android:id="@+id/action_loginPage_to_singnupPageFragment"
+            app:destination="@id/singnupPageFragment" />
+        <action
+            android:id="@+id/action_loginPage_to_homePageEmptyCaseFragment"
+            app:destination="@id/homePageEmptyCaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singnupPageFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.SingnupPageFragment"
+        android:label="@string/fragment_singnup_page"
+        tools:layout="@layout/fragment_singnup_page" >
+        <action
+            android:id="@+id/action_singnupPageFragment_to_loginPage"
+            app:destination="@id/loginPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/sendMoneyFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.SendMoneyFragment"
+        android:label="@string/fragment_send_money"
+        tools:layout="@layout/fragment_send_money" >
+        <action
+            android:id="@+id/action_sendMoneyFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/requestMoneyFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.RequestMoneyFragment"
+        android:label="@string/fragment_request_money"
+        tools:layout="@layout/fragment_request_money" >
+        <action
+            android:id="@+id/action_requestMoneyFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageEmptyCaseFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.HomePageEmptyCaseFragment"
+        android:label="@string/fragment_home_page_empty_case"
+        tools:layout="@layout/fragment_home_page_empty_case" >
+        <action
+            android:id="@+id/action_homePageEmptyCaseFragment_to_requestMoneyFragment"
+            app:destination="@id/requestMoneyFragment" />
+        <action
+            android:id="@+id/action_homePageEmptyCaseFragment_to_sendMoneyFragment"
+            app:destination="@id/sendMoneyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.HomePageFragment"
+        android:label="@string/fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePageFragment_to_sendMoneyFragment"
+            app:destination="@id/sendMoneyFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_requestMoneyFragment"
+            app:destination="@id/requestMoneyFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_profilePageFragment"
+            app:destination="@id/profilePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilePageFragment"
+        android:name="com.vasquezsoftwaresolutions.evaluacion_modulo_5.view.fragments.ProfilePageFragment"
+        android:label="@string/fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page" >
+        <action
+            android:id="@+id/action_profilePageFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+</navigation>
